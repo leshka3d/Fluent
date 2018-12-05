@@ -1,0 +1,6 @@
+D:\personal\Fluent\Fluent\obj\Debug\Fluent.csprojResolveAssemblyReference.cache
+D:\personal\Fluent\Fluent\obj\Debug\Fluent.csproj.CoreCompileInputs.cache
+D:\personal\Fluent\Fluent\bin\Debug\Fluent.dll
+D:\personal\Fluent\Fluent\bin\Debug\Fluent.pdb
+D:\personal\Fluent\Fluent\obj\Debug\Fluent.dll
+D:\personal\Fluent\Fluent\obj\Debug\Fluent.pdb
