@@ -13,11 +13,11 @@ namespace Demo
 			var a =
 			0.ToList().AddAnd(1).AddAnd(3).AddAnd(6).AddAnd(7)
 			 .ReverseAnd().SortAnd((x, y) => x - y).Take(3).ToList()
-			 .Where(x => x > 1).ToList()
-			 ._ifContains(6, list => { Console.WriteLine("Contains 6!"); return list; }, list1 => { Console.WriteLine("Added!"); return list1.AddAnd(6); })
-			 .DoAddAnd(me=>me.Max()).Distinct ().ToList()
-			 .DoAddAnd(me => me.Aggregate((x, y) => x + y)).ForEachAnd(x => { Console.WriteLine(x); });
-			Console.ReadLine(); 
+			 .Where(x => x > 1).ToList();			 			 
+			
+
+			new[] { 1, 2, 3 }.ToList().AddAnd(4).AddAnd(5).DoAnd (x => x.Add(0)).AddAnd (-1);
+
 
 			
 		}

@@ -42,10 +42,18 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="FluentDict.cs" />
+    <Compile Include="FluentHashset.cs" />
+    <Compile Include="FluentLinkedList.cs" />
     <Compile Include="FluentList.cs" />
+    <Compile Include="FluentQueue.cs" />
+    <Compile Include="FluentSortedList.cs" />
+    <Compile Include="FluentStack.cs" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Properties\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Readme.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

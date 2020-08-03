@@ -26,34 +26,10 @@ namespace Fluent
 		{
 			dict.Clear();
 			return dict;
+			
 		}
 
-
-
-		public static  List<KeyValuePair<K,V>>  ToKeyValueList<K, V>(this Dictionary<K,V> d)
-		{
-			return new List<KeyValuePair<K, V>>(); 
-		}
-		public static List<V> ToValueList<K, V>(this Dictionary<K,V> d)
-		{
-			return new List<V>();
-		}
-		public static List<K> ToKeyList<K, V>(this Dictionary<K, V> d)
-		{
-			return new List<K>();
-		}
-
-		public static Dictionary<K, V> ToDictionary<K, V>(this IEnumerable<V> ie, Func<V, K> GetKey)
-		{
-			var d = new Dictionary<K, V>();
-			foreach (var e in ie)
-			{
-				d.Add(GetKey(e), e);
-			}
-			return d;
-		}
-
-
+		
 
 	}
 }
