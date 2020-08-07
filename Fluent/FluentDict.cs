@@ -29,7 +29,11 @@ namespace Fluent
 			
 		}
 
-		
+        public static Dictionary<K, V> DoAnd<K, V>(this Dictionary<K, V> dict, Action<Dictionary<K, V>> a)
+        {
+            a(dict);
+            return dict;
+        }
 
 	}
 }
