@@ -2,6 +2,11 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <PackageId>Fluent.Collections</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>Alexey Sobolev</Authors>
+    <Product>Fluent.Collections</Product>
+    <Description>Additional comfortable collection behavior.</Description>
   </PropertyGroup>
 
 </Project>
