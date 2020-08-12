@@ -8,25 +8,25 @@ namespace Fluent
 {
    public static  class FluentSortedList
     {
-        public static SortedList<K, V> AddAnd<K, V>(this SortedList<K, V> slst, K TKey, V TValue)
+        public static SortedList<k, v> AddAnd<k, v>(this SortedList<k, v> slst, k TKey, v TValue)
         {
             slst.Add(TKey, TValue);
             return slst;
         }
-        public static SortedList<K, V> RemoveAnd<K, V>(this SortedList<K, V> slst, K TKey)
+        public static SortedList<k, v> RemoveAnd<k, v>(this SortedList<k, v> slst, k TKey)
         {
             slst.Remove(TKey);
             return slst;
         }
 
-        public static SortedList<K, V> ClearAnd<K, V>(this SortedList<K, V> slst)
+        public static SortedList<k, v> ClearAnd<k, v>(this SortedList<k, v> slst)
         {
             slst.Clear();
             return slst;
 
         }
 
-        public static SortedList<K, V> DoAnd<K, V>(this SortedList<K, V> slst, Action<SortedList<K, V>> a)
+        public static SortedList<k, v> DoAnd<k, v>(this SortedList<k, v> slst, Action<SortedList<k, v>> a)
         {
             a(slst);
             return slst;
